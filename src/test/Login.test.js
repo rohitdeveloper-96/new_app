@@ -1,33 +1,33 @@
-import { getByText } from '@testing-library/react'
+
 import React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import { BrowserRouter, Routes } from 'react-router';
+import { MemoryRouter as Router } from "react-router-dom";
 import { Provider } from "react-redux";
-import configureStore from 'redux-mock-store'
 import LoginScreen from '../screens/Login';
-import Header from '../components/Header';
-import { toBeInTheDocument } from '@testing-library/jest-dom/matchers';
-import { Typography } from '@mui/material';
+import { stores } from '../store/store'
 
-const mockStore = configureStore([])
 describe("Login Form Component", () => {
-    // it("render the Login Component", async () => {
-    //     const store = mockStore({})
-    //     store.dispatch = jest.fn();
-    //     const { getById } = await render(<Provider store={store}>
-    //         <LoginScreen />
-    //     </Provider>, { wrapper: BrowserRouter })
-    //   const emailInput = getById('email');
-    //     expect(emailInput.value).toBe("@")
-    // })       
-    it("render the Header", async () => {
-        const store = mockStore({})
-        store.dispatch = jest.fn();
-        await render(<Provider store={store}>
+    const adminUserList = [
+        {
+            "id": 1,
+            "name": "admin",
+            "email": "admin123@gmail.com",
+            "password": "admin",
+            "isAdmin": "true"
+        },
+    ]
+    it("render the adminlist of datas", async () => {
+        await render(<Provider store={stores}>
             <LoginScreen />
-        </Provider>, { wrapper: BrowserRouter })
-        const StringElement = await screen.getByText("adminUserList")
-        expect(StringElement.innerHTML).toBeUndefined()
+        </Provider>, { wrapper: Router })
+        expect(adminUserList).not.toHaveLength(0)
+    })
+    it('display an error message when api call fails', async () => {
+        await render(<Provider store={stores}>
+            <LoginScreen />
+        </Provider>, { wrapper: Router })
+        const listElement = await screen.queryByText('Fail to Fetch Data')
+        expect(listElement).toBeNull()
     })
 
 });
