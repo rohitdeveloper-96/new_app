@@ -1,0 +1,216 @@
+{
+  "adminList": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin123@gmail.com",
+      "password": "admin",
+      "isAdmin": "true"
+    },
+    {
+      "id": 2,
+      "name": "Rohit",
+      "email": "rohit@happiestminds.com",
+      "password": "admin",
+      "isAdmin": "true"
+    },
+    {
+      "name": "Rohitrajmano",
+      "email": "rohitraj.m@mookambikainfo.com",
+      "password": "Temp@12345",
+      "isAdmin": true,
+      "id": 3
+    },
+    {
+      "name": "Manoharan",
+      "email": "mano@gmail.com",
+      "password": "Temp@12345",
+      "isAdmin": true,
+      "id": 4
+    },
+    {
+      "name": "Aadhi",
+      "email": "aadhi@gmail.com",
+      "password": "123",
+      "isAdmin": true,
+      "id": 7
+    },
+    {
+      "name": "manohar",
+      "email": "eyetelvision@gmail.com",
+      "password": "catel",
+      "isAdmin": true,
+      "id": 8
+    },
+    {
+      "name": "madhurohit",
+      "email": "madhucharan@gmail.com",
+      "password": "1234567",
+      "isAdmin": true,
+      "id": 9
+    }
+  ],
+  "UserList": [
+    {
+      "name": "admin",
+      "email": "admin123@gmail.co",
+      "age": "2",
+      "primaryskills": "Web-Dev",
+      "id": 1
+    },
+    {
+      "name": "Rohit",
+      "email": "rohit@happiestminds.com",
+      "age": "35",
+      "primaryskills": "Software Testing,Web Dev",
+      "id": 2
+    },
+    {
+      "name": "Rohitrajmano",
+      "email": "rohitraj.m@mookambikainfo.com",
+      "age": "32",
+      "primaryskills": "Node js",
+      "id": 3
+    },
+    {
+      "name": "Manoharan",
+      "email": "mano@gmail.com",
+      "age": "56",
+      "primaryskills": "React js",
+      "id": 4
+    },
+    {
+      "name": "Rohitrajmanoharan",
+      "email": "rohitraj@mookambikainfo.com",
+      "age": "26",
+      "primaryskills": "Express JS",
+      "id": 5
+    },
+    {
+      "name": "Test",
+      "email": "Test@test.com",
+      "age": "32",
+      "primaryskills": "React Js,Node js",
+      "id": 6
+    },
+    {
+      "name": "Aadhi",
+      "email": "Aadhi@gmail.com",
+      "age": "24",
+      "primaryskills": "React Js",
+      "id": 7
+    },
+    {
+      "name": "Madhu",
+      "email": "madhu@gmail.com",
+      "age": "35",
+      "primaryskills": "React Js",
+      "id": 8
+    },
+    {
+      "name": "madhu2",
+      "email": "madhu2@gmail.com",
+      "age": "23",
+      "primaryskills": "React Js",
+      "id": 9
+    },
+    {
+      "name": "madhu3",
+      "email": "madhu3@gmail.com",
+      "age": "35",
+      "primaryskills": "React Js",
+      "id": 10
+    },
+    {
+      "name": "madhu4",
+      "email": "madhu4@gmail.com",
+      "age": "35",
+      "primaryskills": "React Js",
+      "id": 11
+    },
+    {
+      "name": "Rocky",
+      "email": "rocky@gmail.com",
+      "age": "45",
+      "primaryskills": "Express Js",
+      "id": 12
+    },
+    {
+      "name": "Test2",
+      "email": "Test2@gmail.com",
+      "age": "35",
+      "primaryskills": "Express Js,Node Js",
+      "id": 13
+    },
+    {
+      "name": "Rohit Raj",
+      "email": "Haii@gmail.com",
+      "age": "56",
+      "primaryskills": "React Js",
+      "id": 14
+    },
+    {
+      "name": "Rocky",
+      "email": "Rocky@gmail.com",
+      "age": "45",
+      "primaryskills": "React Js",
+      "id": 16
+    },
+    {
+      "name": "adhi",
+      "email": "aadhi2@gmail.com",
+      "age": "45",
+      "primaryskills": "React Js",
+      "id": 17
+    },
+    {
+      "name": "aadhi3",
+      "email": "asdsads@gmail.com",
+      "age": "35",
+      "primaryskills": "React Js",
+      "id": 18
+    },
+    {
+      "name": "Test56",
+      "email": "test45@gmail.com",
+      "age": "12",
+      "primaryskills": "React Js",
+      "id": 19
+    },
+    {
+      "name": "Viji",
+      "email": "Viji@gmail.com",
+      "age": "9",
+      "primaryskills": "React Js",
+      "id": 20
+    },
+    {
+      "name": "Vaishu",
+      "email": "Vaishu@gmail.com",
+      "age": "10",
+      "primaryskills": "Node js",
+      "id": 21
+    },
+    {
+      "name": "Rohini",
+      "email": "rohini@gmail.com",
+      "age": "34",
+      "primaryskills": "React Js",
+      "id": 22
+    },
+    {
+      "name": "RohitTest",
+      "email": "RohitTest@gmail.com",
+      "age": "11",
+      "primaryskills": "React Js",
+      "id": 23
+    },
+    {
+      "name": "RohitTest4",
+      "email": "rohitTest@gmail.com",
+      "age": "45",
+      "primaryskills": "React Js",
+      "id": 24
+    }
+  ]
+}
