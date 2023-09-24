@@ -6,6 +6,7 @@ const TextIput = (props) => {
                 id={props.id}
                 value={props.Value}
                 type={props.text}
+                placeholder={props.placeholder}
                 onChange={(e) => { props.onChangeHandler(e) }} />
         </div>
     )

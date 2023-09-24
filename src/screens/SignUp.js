@@ -100,6 +100,7 @@ const SignUpScreen = () => {
                     <TextIput
                         text="text"
                         id="email"
+                        placeholder ="Enter Your Email-id"
                         Value={email}
                         onChangeHandler={onChangeHandler}
                     />
@@ -107,6 +108,7 @@ const SignUpScreen = () => {
                     <TextIput
                         id="password"
                         text="password"
+                        placeholder="Enter your Password"
                         Value={password}
                         onChangeHandler={onChangeHandler}
                     />
